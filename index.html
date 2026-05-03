@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For My Favorite Human ✨</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,500;0,700;1,300&family=Montserrat:wght@300;500;700&display=swap"
+        rel="stylesheet">
+    <style>
+        :root {
+            --champagne: #F7E7CE;
+            --rose-gold: #B76E79;
+            --deep-gold: #966B42;
+            --text-main: #1A1A1A;
+            /* High contrast black-grey */
+            --soft-white: #FFFBFB;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            /* Fountain-like fluid background movement */
+            background: linear-gradient(315deg, #f7e7ce 0%, #ffffff 25%, #ffe4e1 50%, #ffffff 75%, #f7e7ce 100%);
+            background-size: 400% 400%;
+            animation: fountainMove 15s ease infinite;
+            font-family: 'Montserrat', sans-serif;
+            color: var(--text-main);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+
+        @keyframes fountainMove {
+            0% {
+                background-position: 0% 50%;
+            }
+
+            50% {
+                background-position: 100% 50%;
+            }
+
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        .container {
+            width: 85%;
+            max-width: 500px;
+            text-align: center;
+            padding: 50px 40px;
+            /* Glassmorphism effect for a richer look */
+            background: rgba(255, 255, 255, 0.7);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border: 1px solid rgba(183, 110, 121, 0.2);
+            box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
+            border-radius: 2px;
+            position: relative;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        .border-frame {
+            position: absolute;
+            top: 15px;
+            left: 15px;
+            right: 15px;
+            bottom: 15px;
+            border: 1px solid var(--rose-gold);
+            pointer-events: none;
+            opacity: 0.5;
+        }
+
+        h1 {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 3rem;
+            font-weight: 500;
+            margin-bottom: 15px;
+            letter-spacing: 3px;
+            color: var(--rose-gold);
+            text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.05);
+        }
+
+        .heart {
+            font-size: 20px;
+            color: var(--deep-gold);
+            margin: 25px 0;
+            letter-spacing: 5px;
+        }
+
+        p {
+            line-height: 2;
+            font-weight: 300;
+            font-size: 1rem;
+            letter-spacing: 0.8px;
+            color: var(--text-main);
+            /* High contrast color */
+        }
+
+        b {
+            font-weight: 700;
+            color: #000;
+            border-bottom: 1px solid var(--rose-gold);
+        }
+
+        .apology-text {
+            font-style: italic;
+            margin-bottom: 30px;
+            color: #555;
+        }
+
+        .gift-button {
+            display: inline-block;
+            padding: 18px 45px;
+            background-color: var(--text-main);
+            /* Darker button for luxury contrast */
+            color: white;
+            text-decoration: none;
+            font-size: 11px;
+            font-weight: 600;
+            letter-spacing: 4px;
+            text-transform: uppercase;
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            cursor: pointer;
+            border: none;
+            margin-top: 30px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .gift-button:hover {
+            background-color: var(--rose-gold);
+            letter-spacing: 6px;
+            transform: translateY(-3px);
+            box-shadow: 0 15px 25px rgba(183, 110, 121, 0.3);
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Adding subtle sparkle dots */
+        .decoration {
+            position: absolute;
+            font-size: 10px;
+            color: var(--rose-gold);
+            opacity: 0.4;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="border-frame"></div>
+
+        <div class="decoration" style="top:20px; left:20px;">✦</div>
+        <div class="decoration" style="bottom:20px; right:20px;">✦</div>
+
+        <h1>Maafff Bhiii Karr Dooo!! 🙁</h1>
+        <div class="heart">✦ ━━━━ ʚ♡ɞ ━━━━ ✦</div>
+
+        <p class="apology-text">
+            To the girl who does the radiative emission of energy for our recombination....
+        </p>
+
+        <p>
+            I know you are <b>"gussaaaa"😤</b> and honestly, you didn't deserve that, I accept it, I shouldn't have
+            verified that. <b> I am too sorrieeee myy cutieee putieee patootieeee jiiii!!!! ✧ </b> My night feels a
+            little off whenever my bestieeeee goes to bedd withh off-energyy. 😣
+            <br>
+        </p>
+
+        <p>
+            Can youuu plsss givee me maafii meriii pyaariii madammmjiiii?? Am justtt a sillyy immature boyyy. 👀
+        </p>
+
+        <p><b>YOUHHHH MYYYY DUMBBBB POTATOEEEEE ❤️</b></p>
+
+        <button class="gift-button"
+            onclick="alert('✨ Voucher Activated: One Shopping Trip + Unlimited Sorrys. \n\nShow this to me to redeem!')">
+            Claim Peace Offering
+        </button>
+
+        <div style="margin-top: 50px; font-size: 9px; color: #777; letter-spacing: 3px; font-weight: 500;">
+            ekk padseee haveee chupppp chaappp maaaniiii jaa huhhh!!🤥
+        </div>
+    </div>
+
+</body>
+
+</html>
